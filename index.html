@@ -6763,7 +6763,7 @@ function forceScrollToBottom() {
 // ===== CORS PROXY FUNCTION =====
 async function fetchVideoViaN8nProxy(videoUrl) {
     try {
-        const n8nProxyUrl = 'http://localhost:5678/webhook-test/fetch-video'; // ⚠️ REPLACE WITH YOUR n8n WEBHOOK URL
+        const n8nProxyUrl = 'https://bap04223.app.n8n.cloud/webhook/fetch-video';
         
         const response = await fetch(n8nProxyUrl, {
             method: 'POST',
